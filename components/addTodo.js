@@ -22,5 +22,6 @@ export default function AddTodo({ addTodoList }) {
                 <input type="text" name="task" ref={inputUseRef} className="input" autoComplete="off"></input>
                 <button type="submit" className="button">Add</button>
             </form>
+            <h3>My Todo List</h3>
         </div>)
 }

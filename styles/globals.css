@@ -39,11 +39,14 @@ body {
 
 .input:focus {
   outline: none;
-  border:2px solid rgb(49, 159, 231);
+  border: 2px solid rgb(49, 159, 231);
   /* border-color: #1cc206; */
 }
 
-
+h3 {
+  color: #690591;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .button {
   background-color: rgb(248, 141, 0);
