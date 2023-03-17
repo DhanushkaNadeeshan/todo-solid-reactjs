@@ -19,7 +19,7 @@ export default function AddTodo({ addTodoList }) {
     
             <Image src='/to-do-list.png' width={96} height={96}/>
             <form onSubmit={handleSubmit}>
-                <input type="text" name="task" ref={inputUseRef} className="input"></input>
+                <input type="text" name="task" ref={inputUseRef} className="input" autoComplete="off"></input>
                 <button type="submit" className="button">Add</button>
             </form>
         </div>)
